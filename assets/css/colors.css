@@ -243,74 +243,74 @@
 }
 
 .txt-grass {
-   color: #49D0B0;
+   color: #77c850;
 }
 
 .txt-fire {
-   color: #FF6265;
+   color: #ee7f30;
 }
 
 .txt-water {
-   color: #559EDF;;
+    background-color: #678fee;
 }
 
 .txt-electric {
-   color: #F7D233;
+   color: #f7cf2e;
 }
 
 .txt-normal {
-   color: #BCBCAF;
+   color: #a6a877;
 }
 
 .txt-poison {
-   color: #ca45c3;
+   color: #a040a0;
 }
 
 .txt-flying {
-   color: #9E8FC5;
+   color: #a98ff0;
 }
 
 .txt-bug {
-   color: #84e245;
+    background-color: #a8b720;
 }
 
 .txt-ground {
-   color: #dfbf60;
+   color: #dfbf69;
 }
 
 .txt-ice {
-   color: #73d1cf;
+   color: #98d5d7;
 }
 
 .txt-rock {
-   color: #B9A338;
+   color: #b8a137;
 }
 
 .txt-dragon {
-   color: #8e55a8;
+   color: #6f38f6;
 }
 
 .txt-dark {
-   color: #725A4A;
+   color: #725847;
 }
 
 .txt-ghost {
-   color: #71599A;
+   color: #6e5896;
 }
 
 .txt-fighting {
-   color: #d84742;
+   color: #bf3029;
 }
 
 .txt-steel {
-   color: #9090c9;
+   color: #b9b7cf;
 }
 
 .txt-fairy {
-   color: #f88fbe;
+   color: #f9aec7;
 }
 
 .txt-psychic {
-   color: #d8527c;
+   color: #f65687;
 }
 

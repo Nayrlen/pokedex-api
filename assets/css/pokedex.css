@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: center;
-  }
+}
 
 .pokemons {
     display: grid;
@@ -13,7 +13,7 @@ header {
     padding: 0.5rem 1rem;
     color: #fffffff9;
     border-radius: 1rem;
-    height: clamp(100px, 25vw, 200px);
+    height: clamp(115px, 10vw, 100px);
     box-shadow: 0 1px 5px 0 #999999;
 }
 
@@ -61,20 +61,26 @@ section.pokemon-info .types .type {
 
 }
 
-@media (max-width: 400px) {
+@media  (max-width: 430px) {
     .pokemons {
-    grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+}
+
+@media  (min-width: 430px) and (max-width: 700px) {
+  .pokemons {
+    grid-template-columns: 1fr 1fr ;
   }
 }
 
-@media (min-width: 400px) and (max-width: 992px) {
-  .pokemons {
-    grid-template-columns: 1fr 1fr;
-}
+@media (min-width: 700px) and (max-width: 992px) {
+    .pokemons {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media (min-width: 992px) {
   .pokemons {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
